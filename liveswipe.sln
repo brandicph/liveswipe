@@ -16,6 +16,10 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		liveswipe\liveswipe\liveswipe.projitems*{1198ff63-d0e8-4fdc-99a6-57b970e46875}*SharedItemsImports = 13
+		liveswipe\liveswipe\liveswipe.projitems*{562a6c76-a6cf-47dc-9eda-da9c2602bc33}*SharedItemsImports = 4
+		liveswipe\liveswipe\liveswipe.projitems*{c0bf32a7-7881-4cf5-86b8-3398e865cb11}*SharedItemsImports = 4
+		liveswipe\liveswipe\liveswipe.projitems*{d86a88fa-e98e-4f68-9d61-b15093643a37}*SharedItemsImports = 4
+		liveswipe\liveswipe\liveswipe.projitems*{f3b180e5-0fa8-40e9-9a18-493c4f3ce2a7}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

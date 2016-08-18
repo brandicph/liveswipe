@@ -10,8 +10,31 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Encoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Headers\APP0.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Headers\DHT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Headers\DQT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Headers\SOF0.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Headers\SOS.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Helpers\BinaryWriterExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Models\BitString.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Models\Imaging.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Models\InteropGDI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Models\Utils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Tables\Prediction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Tables\Chromiance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Tables\FDCT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Tables\Huffman.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Tables\Luminance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Tables\Quantization.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Tables\YCbCr.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Tables\Tables.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JPEG\Tables\ZigZag.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)GettingStarted.Xamarin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Images\test001.jpg" />
   </ItemGroup>
 </Project>
